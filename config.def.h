@@ -5,7 +5,14 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "Liberation Mono:pixelsize=12:antialias=true:autohint=true";
+// static char *font = "Liberation Mono:pixelsize=19:antialias=true:autohint=true";
+// static char *font = "OCR:pixelsize=18:antialias=false:autohint=true";
+// static char *font = "PragmataProMono:pixelsize=13:antialias=true:autohint=true";
+// static char *font = "Hermit:pixelsize=13:antialias=true:autohint=true";
+ static char *font = "EnvyCodeR:pixelsize=13:antialias=true:autohint=true";
+// static char *font = "M+ 2m:pixelsize=13:antialias=true:autohint=true";
+// static char *font = "Monaco:pixelsize=10:antialias=true:autohint=true";
+// static char *font = "PragmataPro:pixelsize=32:antialias=true:autohint=true";
 static int borderpx = 2;
 
 /*
@@ -83,8 +90,9 @@ char *termname = "st-256color";
 unsigned int tabspaces = 8;
 
 /* Terminal colors (16 first used in escape sequence) */
+/*
 static const char *colorname[] = {
-	/* 8 normal colors */
+	/* 8 normal colors * /
 	"black",
 	"red3",
 	"green3",
@@ -94,7 +102,7 @@ static const char *colorname[] = {
 	"cyan3",
 	"gray90",
 
-	/* 8 bright colors */
+	/* 8 bright colors * /
 	"gray50",
 	"red",
 	"green",
@@ -106,7 +114,7 @@ static const char *colorname[] = {
 
 	[255] = 0,
 
-	/* more colors can be added after 255 to use with DefaultXX */
+	/* more colors can be added after 255 to use with DefaultXX * /
 	"#cccccc",
 	"#555555",
 };
@@ -134,7 +142,8 @@ const char *colorname[] = {
   [15] = "#ffffff", /* white   */
 
   /* special colors */
-  [256] = "#282a36", /* background */
+  // [256] = "#282a36", /* background */
+  [256] = "#0e2133", /* background */
   [257] = "#f8f8f2", /* foreground */
 };
 
